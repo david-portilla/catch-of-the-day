@@ -9,9 +9,9 @@
 /coverage
 
 # production
-/build
+/build/*
 # ignore build folder except for redirects file
-!_redirects
+!/build/_redirects
 
 # misc
 .DS_Store
