@@ -9,9 +9,10 @@
 /coverage
 
 # production
-/build/*
+/build/
 # ignore build folder except for redirects file
-# !*/build/_redirects
+!/build/.netlify
+!/build/_redirects
 
 # misc
 .DS_Store
