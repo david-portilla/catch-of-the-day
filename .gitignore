@@ -10,6 +10,7 @@
 
 # production
 /build
+# ignore build folder except for redirects file
 !_redirects
 
 # misc
