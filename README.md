@@ -3,6 +3,6 @@ React app to handle inventory for a restaurant
 
 To start clone repo and run `npm i` then `npm start`
 
-To deploy run `npm build`
+To deploy `npm run build`
 
 Enjoy :)
