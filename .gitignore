@@ -11,7 +11,7 @@
 # production
 /build/*
 # ignore build folder except for redirects file
-!*/build/_redirects
+# !*/build/_redirects
 
 # misc
 .DS_Store
