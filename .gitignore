@@ -8,10 +8,6 @@
 # testing
 /coverage
 
-# ignore build folder except for redirects file
-!/build/.netlify
-!/build/_redirects
-
 # production
 build/*
 
