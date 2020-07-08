@@ -84,7 +84,7 @@ export default class Inventory extends Component {
             deleteFish={ this.props.deleteFish }
           />
         ) }
-        <AddFish addFish={ this.props.addFish } />
+        {/* <AddFish addFish={ this.props.addFish } /> */}
         <button onClick={ this.props.loadSampleFishes }>Load sample fishes</button>
       </div>
     )
