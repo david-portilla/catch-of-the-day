@@ -56,24 +56,24 @@ export default class Inventory extends Component {
   }
 
   render () {
-    const logout = <button onClick={ this.logout }> Log out!</button>
-    // check if they are logged in
-    if (!this.state.uid) {
-      return <Login authenticate={ this.authenticate } />
-    }
-    // check if they are NOT the owner of the store
-    if (this.state.uid !== this.state.owner) {
-      return <div>
-        <p> <strong>Sorry you are not the owner!</strong> You are not allow to handle this inventory</p>
-        { logout }
-        <br /><br />
-      </div>
-    }
+    // const logout = <button onClick={ this.logout }> Log out!</button>
+    // // check if they are logged in
+    // if (!this.state.uid) {
+    //   return <Login authenticate={ this.authenticate } />
+    // }
+    // // check if they are NOT the owner of the store
+    // if (this.state.uid !== this.state.owner) {
+    //   return <div>
+    //     <p> <strong>Sorry you are not the owner!</strong> You are not allow to handle this inventory</p>
+    //     { logout }
+    //     <br /><br />
+    //   </div>
+    // }
     // they are the owner, render the inventory
     return (
       <div className="inventory">
         <h2>Inventory</h2>
-        { logout }
+        {/* { logout } */}
         <br /><br />
         { Object.keys(this.props.fishes).map(key =>
           <EditFishForm
