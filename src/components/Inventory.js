@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import firebase from 'firebase'
-import AddFish from './AddFish'
+// import AddFish from './AddFish'
 import EditFishForm from './EditFishForm'
 import Login from './Login'
 import base, { firebaseApp } from '../base'
